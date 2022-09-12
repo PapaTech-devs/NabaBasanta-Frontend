@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useTranslation } from 'react-i18next'
 
 import { useFacilities } from '../../hooks/useFacilities'
@@ -11,7 +12,7 @@ const About = () => {
       <div className="container">
         <div className="section-title about-title text-center mb-20">
           <span className="title-tag">{t("And it's not over here!")}</span>
-          <h2>{t('Antica Farmacia guesthouse is even more')}</h2>
+          <h2>{t('Naba Basanta guesthouse is even more')}</h2>
         </div>
         <ul className="about-features masonry-layout">
           {facilities.map((item) => (

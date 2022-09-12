@@ -1,8 +1,9 @@
+/* eslint-disable */
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
-import bg from '../../assets/images/room-latopiazza-bed-3.jpg'
+import bg from '../../assets/images/front-2.JPG'
 import { locations } from '../../utils/locations'
 
 export const Breadcrumb = () => {

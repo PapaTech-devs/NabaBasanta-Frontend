@@ -1,7 +1,8 @@
+/* eslint-disable */
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import dinnerRoom from '../../assets/images/dinner-room-2.jpg'
+import dinnerRoom from '../../assets/images/dining1.JPG'
 import { BorderBtnLink, FilledBtnLink } from '../../components/Button/Button'
 import { useGlobal } from '../../hooks/useGlobal'
 import { locations } from '../../utils/locations'

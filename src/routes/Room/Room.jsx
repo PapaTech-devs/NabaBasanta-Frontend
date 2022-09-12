@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable */
 import { useParams } from 'react-router-dom'
 
 import { Footer } from '../../components/Footer/Footer'

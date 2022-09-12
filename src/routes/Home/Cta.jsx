@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
@@ -17,18 +18,18 @@ const Cta = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-8 col-sm-9 col-10 order-2 order-lg-1">
               <div className="cta-text">
-                <div className="section-title mb-20">
+                {/* <div className="section-title mb-20">
                   <span className="title-tag">
                     {t('Elegance and refinement')}
                   </span>
                   <h2>{t('The refuge of your hike')}</h2>
-                </div>
-                <p>
+                </div> */}
+                {/* <p>
                   <Trans
                     i18nKey="La foresteria Antica Farmacia è un luogo raffinato, che <b>rispetta le origini e la storia</b> della zona di Cedegolo. Concediti un momento di piacere fuori dal caos della città."
                     components={{ b: <b /> }}
                   />
-                </p>
+                </p> */}
                 <Link to={global.contacts.whatsapp.href}>
                   <StrongButton
                     label={t('Contact us')}

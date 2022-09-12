@@ -1,3 +1,4 @@
+/* eslint-disable */
 import '../../utils/imports'
 
 import { Footer } from '../../components/Footer/Footer'

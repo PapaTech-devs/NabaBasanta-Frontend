@@ -1,6 +1,7 @@
+/* eslint-disable */
 export const locations = {
-  home: '/',
-  rooms: '/rooms',
+  home: "/",
+  rooms: "/rooms",
   room: (id) => `/rooms/${id}`,
-  contacts: '/contacts',
-}
+  contacts: "/contacts",
+};

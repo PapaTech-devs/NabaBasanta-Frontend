@@ -1,5 +1,5 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable */
+
 import React from 'react'
 import { Nav, Tab } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
@@ -52,12 +52,12 @@ const RoomTypePane = ({ roomType }) => (
                     </Link>
                   </h3>
                 </div>
-                <Link
+                {/* <Link
                   to={`/room-details/${roomType.room.id}`}
                   className="room-link"
                 >
                   <i className="fal fa-arrow-right" />
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-6 col-sm-6">
@@ -82,12 +82,12 @@ const RoomTypePane = ({ roomType }) => (
                     </Link>
                   </h3>
                 </div>
-                <Link
+                {/* <Link
                   to={`/room-details/${roomType.room.id}`}
                   className="room-link"
                 >
                   <i className="fal fa-arrow-right" />
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-12">
@@ -112,12 +112,12 @@ const RoomTypePane = ({ roomType }) => (
                     </Link>
                   </h3>
                 </div>
-                <Link
+                {/* <Link
                   to={`/room-details/${roomType.room.id}`}
                   className="room-link"
                 >
                   <i className="fal fa-arrow-right" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -144,12 +144,12 @@ const RoomTypePane = ({ roomType }) => (
                 </Link>
               </h3>
             </div>
-            <Link
+            {/* <Link
               to={`/room-details/${roomType.room.id}`}
               className="room-link"
             >
               <i className="fal fa-arrow-right" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

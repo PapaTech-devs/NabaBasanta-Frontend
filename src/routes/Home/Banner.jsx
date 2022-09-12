@@ -1,11 +1,11 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable */
+/* eslint-disable  */
+/* eslint-disable*/
 import { useTranslation } from 'react-i18next'
 import Slider from 'react-slick'
 
-import dinnerRoom1 from '../../assets/images/dinner-room-1.jpg'
-import guesthouseExternalFacade from '../../assets/images/guesthouse-external-facade.jpg'
+import dinnerRoom1 from '../../assets/images/front-1.JPG'
+import guesthouseExternalFacade from '../../assets/images/front-2.JPG'
 import { BorderBtnLink, FilledBtnLink } from '../../components/Button/Button'
 import { home } from '../../data/home'
 import { useGlobal } from '../../hooks/useGlobal'
@@ -35,17 +35,17 @@ const Banner = () => {
           <div className="col-lg-6 col-md-6">
             <div className="banner-content">
               <span className="promo-tag">
-                {t('Overnight stay and local cuisine')}
+                {t('Cozy homestay')}
               </span>
               <h1 className="title">
-                {t('A unique experience in the Italian Alps')}
+                {t('A unique experience at Naba Basanta')}
               </h1>
               <ul>
                 <li>
                   <FilledBtnLink
                     to={locations.rooms}
-                    label={t('Prices')}
-                    muted={t('Rooms from €{{ price }}', {
+                    label={t('Rooms')}
+                    muted={t('View Rooms', {
                       price: home.banner.fromPrice,
                     })}
                   />

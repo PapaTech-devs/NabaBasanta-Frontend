@@ -1,4 +1,4 @@
-/* eslint-disable react/no-array-index-key */
+/* eslint-disable */
 import i18next from 'i18next'
 import React, { Component, Fragment } from 'react'
 import { Link } from 'react-router-dom'
@@ -12,12 +12,12 @@ const navigationmenu = [
     linkText: i18next.t('Home'),
     child: false,
   },
-  {
-    id: 2,
-    link: locations.rooms,
-    linkText: i18next.t('Rooms'),
-    child: false,
-  },
+  // {
+  //   id: 2,
+  //   link: locations.rooms,
+  //   linkText: i18next.t('Rooms'),
+  //   child: false,
+  // },
   {
     id: 4,
     link: locations.contacts,
@@ -113,7 +113,7 @@ class Canvas extends Component {
           </ul>
         </div>
         {/* Social Link */}
-        <div className="widget social-link">
+        {/* <div className="widget social-link">
           <h5 className="widget-title">Contact with us</h5>
           <ul>
             <li>
@@ -142,7 +142,7 @@ class Canvas extends Component {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </>
     )
   }

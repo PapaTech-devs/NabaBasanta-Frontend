@@ -1,4 +1,4 @@
-/* eslint-disable react/no-array-index-key */
+/* eslint-disable */
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
@@ -38,7 +38,7 @@ export const RoomDetail = ({
                       </div>
                       <div className="col-md-4">
                         <div className="price text-right">
-                          € {new Intl.NumberFormat().format(price)}
+                          Tariff @ ₹ {new Intl.NumberFormat().format(price)}
                           <span>/{period}</span>
                         </div>
                       </div>
@@ -118,10 +118,10 @@ export const RoomDetail = ({
                 </ul>
               </div> */}
 
-              <div className="cancellation-box clearfix mb-60">
+              {/* <div className="cancellation-box clearfix mb-60">
                 <h3 className="subtitle">{t('Prices')}</h3>
                 <p>{pricing}</p>
-              </div>
+              </div> */}
 
               <FilledBtnLink
                 label={t('Contact us and book now')}

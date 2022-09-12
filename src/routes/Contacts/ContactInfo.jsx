@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useTranslation } from 'react-i18next'
 
 import { useGlobal } from '../../hooks/useGlobal'

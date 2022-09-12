@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable */
 /* eslint-disable consistent-return */
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
@@ -58,12 +58,12 @@ export const Header = ({
       linkText: t('Home'),
       child: false,
     },
-    {
-      id: 2,
-      link: locations.rooms,
-      linkText: t('Rooms'),
-      child: false,
-    },
+    // {
+    //   id: 2,
+    //   link: locations.rooms,
+    //   linkText: t('Rooms'),
+    //   child: false,
+    // },
     {
       id: 4,
       link: locations.contacts,
@@ -202,9 +202,9 @@ export const Header = ({
               <div className="nav-pushed-item">
                 <SideInfo {...global.contacts} />
               </div>
-              <div style={{ margin: '1rem', marginTop: '2rem' }}>
+              {/* <div style={{ margin: '1rem', marginTop: '2rem' }}>
                 {isMobile && <SelectLanguage />}
-              </div>
+              </div> */}
             </div>
             <div className="site-logo">
               <Link to="/">
@@ -260,34 +260,34 @@ export const Header = ({
   )
 }
 
-const SelectLanguage = ({ vertical }) => (
-  <div style={{ display: 'flex', flexDirection: vertical ? 'column' : 'row' }}>
-    <div style={vertical ? {} : { marginRight: '0.5rem' }}>
-      <span
-        style={{ cursor: 'pointer', padding: 0, fontSize: '18px' }}
-        onClick={() => i18next.changeLanguage('it')}
-      >
-        🇮🇹
-      </span>
-    </div>
-    <div style={vertical ? {} : { marginRight: '0.5rem' }}>
-      <span
-        style={{ cursor: 'pointer', padding: 0, fontSize: '18px' }}
-        onClick={() => i18next.changeLanguage('en')}
-      >
-        🇬🇧
-      </span>
-    </div>
-    <div>
-      <span
-        style={{ cursor: 'pointer', padding: 0, fontSize: '18px' }}
-        onClick={() => i18next.changeLanguage('de')}
-      >
-        🇩🇪
-      </span>
-    </div>
-  </div>
-)
+// const SelectLanguage = ({ vertical }) => (
+//   <div style={{ display: 'flex', flexDirection: vertical ? 'column' : 'row' }}>
+//     <div style={vertical ? {} : { marginRight: '0.5rem' }}>
+//       <span
+//         style={{ cursor: 'pointer', padding: 0, fontSize: '18px' }}
+//         onClick={() => i18next.changeLanguage('it')}
+//       >
+//         🇮🇹
+//       </span>
+//     </div>
+//     <div style={vertical ? {} : { marginRight: '0.5rem' }}>
+//       <span
+//         style={{ cursor: 'pointer', padding: 0, fontSize: '18px' }}
+//         onClick={() => i18next.changeLanguage('en')}
+//       >
+//         🇬🇧
+//       </span>
+//     </div>
+//     <div>
+//       <span
+//         style={{ cursor: 'pointer', padding: 0, fontSize: '18px' }}
+//         onClick={() => i18next.changeLanguage('de')}
+//       >
+//         🇩🇪
+//       </span>
+//     </div>
+//   </div>
+// )
 
 const HeaderInfo = ({ mobile, whatsapp }) => (
   <div className="header-info d-lg-flex align-items-center">
@@ -301,9 +301,9 @@ const HeaderInfo = ({ mobile, whatsapp }) => (
         whatsapp
       </a>
     </div>
-    <div className="item">
+    {/* <div className="item">
       <SelectLanguage vertical />
-    </div>
+    </div> */}
   </div>
 )
 

@@ -1,5 +1,5 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable */
+/* eslint-disable */
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useNavigate } from 'react-router-dom'
@@ -69,14 +69,14 @@ const RoomCard = (room) => {
                 </h4>
                 <ReadMoreParagraph text={description} />
                 <br />
-                <p>
+                {/* <p>
                   <b>{t('Price')}</b> {pricing}
-                </p>
+                </p> */}
               </div>
               <div className="col-sm-5">
                 <div className="text-sm-center">
                   <span className="price">
-                    €{new Intl.NumberFormat().format(price)}
+                  Tariff @ ₹{new Intl.NumberFormat().format(price)}
                     <span>/{period.toLowerCase()}</span>
                   </span>
                   <Link
