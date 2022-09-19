@@ -4,8 +4,8 @@
 import { useTranslation } from 'react-i18next'
 import Slider from 'react-slick'
 
-import dinnerRoom1 from '../../assets/images/front-1.JPG'
-import guesthouseExternalFacade from '../../assets/images/front-2.JPG'
+import dinnerRoom1 from '../../assets/images/front-1.jpeg'
+import guesthouseExternalFacade from '../../assets/images/front-2.jpeg'
 import { BorderBtnLink, FilledBtnLink } from '../../components/Button/Button'
 import { home } from '../../data/home'
 import { useGlobal } from '../../hooks/useGlobal'

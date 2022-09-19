@@ -2,7 +2,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import dinnerRoom from '../../assets/images/dining1.JPG'
+import dinnerRoom from '../../assets/images/dining1.jpeg'
 import { BorderBtnLink, FilledBtnLink } from '../../components/Button/Button'
 import { useGlobal } from '../../hooks/useGlobal'
 import { locations } from '../../utils/locations'

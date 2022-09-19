@@ -1,22 +1,22 @@
 /*eslint-disable*/
 import i18n from "i18next";
 
-import centraleBed1 from "../assets/images/2bedTable.JPG";
-import centraleBed3 from "../assets/images/2bedwithAc.JPG";
-import centraleDetail from "../assets/images/kitchen.JPG";
-import centraleLarge from "../assets/images/light2.JPG";
-import direttoreBathroom from "../assets/images/bathroom.JPG";
-import direttoreDetail1 from "../assets/images/sittingRoomFull.JPG";
-import direttoreDetail2 from "../assets/images/interior2.JPG";
-import direttoreDoubleBed from "../assets/images/4bed.JPG";
-import latomammaBathroom from "../assets/images/bathroom.JPG";
-import latomammaBed from "../assets/images/2bed.JPG";
-import latomammaDetail2 from "../assets/images/dining1.JPG";
-import latomammaDetail3 from "../assets/images/interior.JPG";
-// import latopiazzaBathroom from "../assets/images/room-latopiazza-bathroom.jpg";
-// import latopiazzaBed from "../assets/images/room-latopiazza-bed-4.jpg";
-// import latopiazzaDetail from "../assets/images/room-latopiazza-detail-3.jpg";
-// import latopiazzaLarge from "../assets/images/room-latopiazza-large-1.jpg";
+import centraleBed1 from "../assets/images/2bedTable.jpeg";
+import centraleBed3 from "../assets/images/2bedwithAc.jpeg";
+import centraleDetail from "../assets/images/kitchen.jpeg";
+import centraleLarge from "../assets/images/light2.jpeg";
+import direttoreBathroom from "../assets/images/bathroom.jpeg";
+import direttoreDetail1 from "../assets/images/sittingRoomFull.jpeg";
+import direttoreDetail2 from "../assets/images/interior2.jpeg";
+import direttoreDoubleBed from "../assets/images/4bed.jpeg";
+import latomammaBathroom from "../assets/images/bathroom.jpeg";
+import latomammaBed from "../assets/images/2bed.jpeg";
+import latomammaDetail2 from "../assets/images/dining1.jpeg";
+import latomammaDetail3 from "../assets/images/interior.jpeg";
+// import latopiazzaBathroom from "../assets/images/room-latopiazza-bathroom.jpeg";
+// import latopiazzaBed from "../assets/images/room-latopiazza-bed-4.jpeg";
+// import latopiazzaDetail from "../assets/images/room-latopiazza-detail-3.jpeg";
+// import latopiazzaLarge from "../assets/images/room-latopiazza-large-1.jpeg";
 import { useRooms } from "./useRooms";
 
 export const useRoomTypes = () => {

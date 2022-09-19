@@ -3,7 +3,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
-import bg from '../../assets/images/light.JPG'
+import bg from '../../assets/images/light.jpeg'
 import { locations } from '../../utils/locations'
 
 export const Breadcrumb = () => {
